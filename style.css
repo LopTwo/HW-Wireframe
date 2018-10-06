@@ -1,0 +1,84 @@
+/* My Code */ 
+
+
+
+
+body{
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+     display: flex;
+     flex-direction: column;
+     background-color: #777;
+     width: 960px;
+     margin: 0 auto;
+    font-size: 18px;
+}
+header, nav, section, aside, footer{
+    background-color: #ebebeb; 
+    margin: 20px;
+    padding: 20px;
+}
+
+article{
+    color: #ebebeb;
+    background: #777;
+    
+}
+#container {
+    height: 80vh;
+    display: flex;  
+}
+
+h1, h2, h3{
+ color: #777;
+ 
+ /*play with the margins for boxes*/
+}
+
+p{
+    text-align: center;
+    color: #777;
+    background: #ebebeb;
+    
+}
+#my_section{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    height: 40%;
+    
+}
+article{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.article_div {
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #ebebeb;
+}
+
+#h_div{
+    display: flex;
+}
+#article_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#my_aside{
+    width: 40%;
+    height: 40%;
+}
+
+#footer{
+    width:  100%;
+}
